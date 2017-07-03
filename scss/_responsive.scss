@@ -2,27 +2,27 @@
 /* RESPONSIVE */
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {
-	.container{
-		width:768px;
-	}
+  .container{
+    width:768px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-	.container{
-	   width:300px;
-	   .table{
-	      width:100%;
-	      display:block;
-	      overflow: auto;
-	   }
-	}
+  .container{
+     width:300px;
+     .table{
+        width:100%;
+        display:block;
+        overflow: auto;
+     }
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.container{
-		width:420px;
-		.table{
-			display:table;
-		}
-	}
+  .container{
+    width:420px;
+    .table{
+      display:table;
+    }
+  }
 }
